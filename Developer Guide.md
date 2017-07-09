@@ -39,10 +39,15 @@ This app was developed in OSX environment. The setup maybe slightly varies on di
 1. Download the application folder from github
 
 2. Make sure you have the following amazon account setting satisfied:
+
 	2.1 Valid amazon aws account
+	
 	2.2 Create non root s3 test account user with limited rights. Use strong password for this s3 test account.
+	
 	2.3 Create group policy to allow "AmazonS3FullAccess". This is potentially dangerous and remove the access rights as soon as the testing is done
+	
 	2.4 Assign s3 test account user to newly created access group
+	
 	2.5 Generate access key and secret key
 	
 3. Locate the app.py in the application folder. Edit the file to input the valid access key and secret key of your own
