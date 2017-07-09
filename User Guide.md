@@ -23,10 +23,14 @@
 ## Home Page
 * http://localhost:5000/
 
+![index](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_s3browser_index.png)
+
 
 ## 1.1 View Bucket List
 
 * 1.1.1 Navigate to http://localhost:5000/
+
+![index](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_s3browser_index.png)
 
 
 ## 1.2 Create Bucket
@@ -35,14 +39,20 @@
 
 * 1.2.2 Click "Create Bucket"
 
+![](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_ui_create1.png)
+
+
 *  1.2.3 Fill up long random bucket ID to be created. Noted that the ID need to be unique otherwise the user may face duplicate bucket id error.
 
+![](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_ui_create2.png)
 
 ## 1.3 Delete Bucket
 
 * 1.3.1 Deletion can be performed on only existing bucket. Navigate to http://localhost:5000/
 
 * 1.3.2 Click one of the existing bucket name from the list and the user will be navigated to bucket details page
+
+![](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_ui_delete_bucket.png)
 
 * 1.3.3 Click "Delete this bucket". Subsequently the bucket will be deleted.
 
@@ -53,10 +63,15 @@
 
 * 1.4.2 Click one of the existing bucket name from the list and the user will be navigated to bucket details page
 
+![](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_ui_rename1.png)
+
 * 1.4.3 Click "Rename this bucket". Subsequently the user will be navigated to Rename Bucket page.
+
+![](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_ui_rename2.png)
 
 * 1.4.4 Key in long and unique bucket id in New Buck ID field and submit the form. The bucket will be renamed accordingly
 
+![](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_ui_rename3.png)
 
 ## 2.1 View Files from bucket
 
@@ -64,12 +79,15 @@
 
 * 2.1.2 Click one of the existing bucket name from the list and the user will be navigated to bucket details page. The avaiable files for the bucket listed in the page.
 
+![](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_ui_view_files.png)
 
 ## 2.2 Upload file into bucket
 
 * 2.2.1 Uploading file into bucket can be performed on only existing bucket. Navigate to http://localhost:5000/
 
 * 2.2.2 Click one of the existing bucket name from the list and the user will be navigated to bucket details page. The avaiable files for the bucket listed in the page.
+
+![](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_ui_upload.png)
 
 * 2.2.3 Click "Choose File" and choose to upload allowed file format. (eg. txt, jpg, gif etc) and Click "Upload". 
 
@@ -83,8 +101,9 @@
 
 * 2.2.2 Click one of the existing bucket name from the list and the user will be navigated to bucket details page. The avaiable files for the bucket listed in the page.
 
-* 2.2.3 Click "Download" link for respective file that wanted to be downloaded. The file will be successfully downloaded to the same folder as running application
+![](https://github.com/bayinmin/BYResources/blob/master/BYS3browserDemo/pic_ui_download_file.png)
 
+* 2.2.3 Click "Download" link for respective file that wanted to be downloaded. The file will be successfully downloaded.
 
 
 
