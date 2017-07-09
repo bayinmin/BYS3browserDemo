@@ -4,6 +4,6 @@ This is the POC/Demo version to show Amazon S3 Browser powered by Flask backend.
 
 For details refer to Developer Guide and User Guide.
 
-[Developer Guide](https://github.com/bayinmin/BYS3browserDemo/blob/master/README.md)
+[Developer Guide](https://github.com/bayinmin/BYS3browserDemo/blob/master/Developer%20Guide.md)
 
 [User Guide](https://github.com/bayinmin/BYS3browserDemo/blob/master/User%20Guide.md)
