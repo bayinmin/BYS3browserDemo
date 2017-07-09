@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+	<h1> Bucket Deletion </h1>
+	<a href="{{bid}}/delete"> Delete This Bucket</a> </br>
+	<br/>
+	<br/>
+	
+	<h1> Bucket Renaming </h1>
+	<a href="{{bid}}/rename"> Rename This Bucket</a> </br>
+	<br/>
+	<br/>
+	
+	<h1> Bucket Content Listing </h1>
+    <table border = 1>
+	   <tr>
+		   <th> Object list within Bucket</th>
+	   </tr>
+       {% for file in bucket_content %}
+
+          <tr>
+			 <td>{{ file }}</td>
+			 <td><a href="/bucket/{{bid}}/download/{{ file }}"> download </a></td>
+			 <td><a href="/bucket/{{bid}}/delete/{{ file }}"> delete </a></td>
+          </tr>
+
+       {% endfor %}
+    </table>
+	
+	<br/>
+	<br/>
+    <!doctype html>
+    <h1>Upload File to this bucket<h1>
+    <form method=post enctype=multipart/form-data action="/bucket/get_bucket">
+      <p><input type=file name=file>
+		  <input type=hidden name=bid value="{{bid}}">
+         <input type=submit value=Upload>
+    </form>
+
+</body>
+</html>

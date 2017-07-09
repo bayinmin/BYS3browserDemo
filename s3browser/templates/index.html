@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+	<h1> Bucket Creation </h1>
+	<a href="bucket/create"> Create Bucket</a> </br>
+
+	</br>
+	</br>
+	</br>
+	<h1> Bucket Listing </h1>
+    <table border = 1>
+	   <tr>
+		   <th> Bucket Name </th>
+	   </tr>
+       {% for line in buckets %}
+
+          <tr>
+             <td> <a href=/bucket/{{ line['Name'] }}> {{ line['Name'] }}</a> </td>
+          </tr>
+
+       {% endfor %}
+    </table>
+
+</body>
+</html>

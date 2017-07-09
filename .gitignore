@@ -1,3 +1,18 @@
 
 test.txt
 “test dir/”
+“/s3browser/.idea/”
+bin/
+Include/
+lib/
+pip-selfcheck.json
+
+s3browser/.Python
+
+*.iml
+
+s3browser/.idea/misc.xml
+
+s3browser/.idea/modules.xml
+
+s3browser/.idea/workspace.xml

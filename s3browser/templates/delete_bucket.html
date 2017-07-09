@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+	
+{% block content %}
+  <h1>Delete Bucket</h1>
+  <form action="/bucket/delete" method="post" name="delete_bucket">
+	  <p>Bucket ID : <input type="text" name="bid"></p><br>
+      <p><input type="submit" value="Delete"></p>
+  </form>
+{% endblock %}
+
+</body>
+</html>
+
+
+
+
+
